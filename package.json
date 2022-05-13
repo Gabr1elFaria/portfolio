@@ -1,0 +1,40 @@
+{
+  "name": "template-portfolio-next",
+  "description": "A template for a portfolio site made with Next.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/euaaron/template-portfolio-next.git"
+  },
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.2",
+    "graphql": "^16.5.0",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.31",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.3",
+    "@types/styled-components": "^5.1.25",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "4.6.4"
+  },
+  "author": {
+    "name": "Aaron Carneiro",
+    "email": "github@aaroncarneiro.com",
+    "url": "https://aaroncarneiro.com"
+  },
+  "license": "MIT"
+}
